@@ -385,6 +385,39 @@ ul, ol, dl { margin: 0; padding: 0; list-style: none; }
 }
 
 /* =========================================================
+   Certifications
+   ========================================================= */
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+}
+
+.cert-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.cert-card-head h3 {
+  font-size: 1.15rem;
+}
+
+.cert-card .project-desc {
+  margin-bottom: 18px;
+}
+
+/* =========================================================
    Placeholder blocks (academic projects / certifications)
    ========================================================= */
 .placeholder-block {
